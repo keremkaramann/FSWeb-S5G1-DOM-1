@@ -56,7 +56,7 @@ navEl.forEach((e, i) => {
 
 const logoImg = document
   .getElementById("logo-img")
-  .setAttribute("src", "../mocks/img/logo.png");
+  .setAttribute("src", siteContent.images["logo-img"]);
 
 const header1 = (document.querySelector(".cta-text h1").textContent =
   siteContent.cta["h1"]);
@@ -65,10 +65,10 @@ const button1 = (document.querySelector(".cta-text button").textContent =
 
 const bannerImg = document
   .getElementById("cta-img")
-  .setAttribute("src", "../mocks/img/cta.png");
+  .setAttribute("src", "http://localhost:9000/img/cta.png");
 const middleImg = document
   .getElementById("middle-img")
-  .setAttribute("src", "../mocks/img/accent.png");
+  .setAttribute("src", "http://localhost:9000/img/accent.png");
 
 const header4 = document.querySelectorAll(".text-content h4");
 
